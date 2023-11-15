@@ -16,12 +16,14 @@ def guess_the_number():
   print("Guess the number (1-10):")
 
 
-def multiplication_table():
-  """
-    Using a while/for loops, implement a multiplication table.
-  """
-  # fix code
-  print("multiplication_table for {number}")
+def multiplication_table(numero):
+    """
+    Imprime la tabla de multiplicar para un número dado.
+    """
+    print(f"Tabla de multiplicar para {numero}:")
+    for i in range(1, 11):
+        resultado = numero * i
+        print(f"{numero} x {i} = {resultado}")
 
 
 def basic_calculator():
